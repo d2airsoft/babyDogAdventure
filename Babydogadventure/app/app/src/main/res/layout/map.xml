@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".battle"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    >
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="8">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="5"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+
+                android:layout_weight="1"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/red"
+                    android:orientation="horizontal"
+                    android:weightSum="6"
+                    >
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_11"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_12"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_13"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_14"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_15"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_16"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+
+                android:layout_weight="1"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/green"
+                    android:orientation="horizontal"
+                    android:weightSum="6"
+                    >
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/dice1"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/die_face_1" />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4">
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_21"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+
+                android:layout_weight="1"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/red"
+                    android:orientation="horizontal"
+                    android:weightSum="6"
+                    >
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_36"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_35"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_34"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_33"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_32"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_31"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+
+                android:layout_weight="1"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/green"
+                    android:orientation="horizontal"
+                    android:weightSum="6"
+                    >
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_41"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5">
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+
+                android:layout_weight="1"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/red"
+                    android:orientation="horizontal"
+                    android:weightSum="6"
+                    >
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_51"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_52"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_53"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_54"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_55"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/stand" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:id="@+id/stand_56"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/next" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="3">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="10"
+                    android:background="@drawable/fatboy"
+                    >
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="5">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="4"
+                    android:background="@color/pink"
+                    >
+                    <TextView
+                        android:id="@+id/bar1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:text="M.Sargent Jr."
+                        />
+
+                    <TextView
+                        android:id="@+id/bar2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:text="Mp:"
+                        />
+                    <TextView
+                        android:id="@+id/bar3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:text="Level:"
+                        />
+                    <TextView
+                        android:id="@+id/bar4"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:text="gold:"
+                        />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="2">
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_alignParentBottom="true"
+
+                    android:background="@drawable/large_button"
+
+                    android:text="@string/roll"
+                    android:textColor="@color/yellow"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

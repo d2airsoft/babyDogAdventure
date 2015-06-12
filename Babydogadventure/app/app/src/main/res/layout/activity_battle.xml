@@ -1,0 +1,466 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".battle"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    >
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="8">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="8">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/green"
+                    android:weightSum="10"
+                    >
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+
+                            android:weightSum="10"
+                            >
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dip"
+                                android:layout_weight="2">
+                                <TextView
+                                    android:id="@+id/enemyname1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_centerVertical="true"
+                                    android:paddingTop="5dp"
+                                    android:text= "Simon "
+                                    android:textColor="@color/yellow"
+                                    android:textSize="20sp" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dip"
+                                android:layout_weight="6">
+                                <FrameLayout
+                                    android:id="@+id/enemy1"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:layout_centerVertical="true"
+                                    android:background="@drawable/s_normal" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dip"
+                                android:layout_weight="2">
+                                <TextView
+                                    android:id="@+id/enemyhp1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_centerVertical="true"
+                                    android:paddingTop="5dp"
+                                    android:text= "Hp: 100"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="20sp" />
+
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+
+                            android:weightSum="6"
+                            >
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dip"
+                                android:layout_weight="1">
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dip"
+                                android:layout_weight="1">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal"
+                                    android:weightSum="5"
+                                    >
+                                    <RelativeLayout
+                                        android:layout_width="0dip"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="2"></RelativeLayout>
+                                    <RelativeLayout
+                                        android:layout_width="0dip"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1">
+                                        <FrameLayout
+                                            android:id="@+id/die1"
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:layout_centerVertical="true"
+                                            android:background="@drawable/die_face_1" />
+
+
+                                    </RelativeLayout>
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dip"
+                                android:layout_weight="0.5">
+                                <TextView
+                                    android:id="@+id/turn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_centerVertical="true"
+                                    android:paddingTop="5dp"
+                                    android:text= "Player Turn"
+                                    android:textColor="@color/red"
+                                    android:textSize="20sp" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dip"
+                                android:layout_weight="1.5">
+                                <TextView
+                                    android:id="@+id/round"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_centerVertical="true"
+                                    android:paddingTop="5dp"
+                                    android:text= "round: 0"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="25sp" />
+
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dip"
+                                android:layout_weight="1">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal"
+                                    android:weightSum="5"
+                                    >
+                                    <RelativeLayout
+                                        android:layout_width="0dip"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"></RelativeLayout>
+                                    <RelativeLayout
+                                        android:layout_width="0dip"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1">
+                                        <FrameLayout
+                                            android:id="@+id/die2"
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:layout_alignParentRight="true"
+                                            android:layout_centerVertical="true"
+                                            android:background="@drawable/die_face_1" />
+                                    </RelativeLayout>
+                                    <RelativeLayout
+                                        android:layout_width="0dip"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"></RelativeLayout>
+                                    <RelativeLayout
+                                        android:layout_width="0dip"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1">
+                                        <FrameLayout
+                                            android:id="@+id/die3"
+                                            android:layout_width="150dp"
+                                            android:layout_height="150dp"
+                                            android:layout_alignParentRight="true"
+                                            android:layout_centerVertical="true"
+                                            android:background="@drawable/die_face_1" />
+                                    </RelativeLayout>
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+
+                            android:weightSum="10"
+                            >
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dip"
+                                android:layout_weight="2">
+                                <TextView
+                                    android:id="@+id/enemyname2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_centerVertical="true"
+                                    android:paddingTop="5dp"
+                                    android:text= "Ray"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="20sp" />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dip"
+                                android:layout_weight="6">
+                                <FrameLayout
+                                    android:id="@+id/enemy2"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:layout_centerVertical="true" />
+                                    <!--android:background="" />-->
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dip"
+                                android:layout_weight="2">
+                                <TextView
+                                    android:id="@+id/enemyhp2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_centerVertical="true"
+                                    android:paddingTop="5dp"
+                                    android:text= ""
+                                    android:textColor="@color/yellow"
+                                    android:textSize="20sp" />
+
+                            </RelativeLayout>
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="4"
+                    android:background="@color/yellow"
+                    >
+
+                    <TextView
+                        android:id="@+id/msg1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:text=""
+                         />
+                    <TextView
+                        android:id="@+id/msg2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:text=""
+                        />
+                    <TextView
+                        android:id="@+id/msg3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:text=""
+                        />
+                    <TextView
+                        android:id="@+id/msg4"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:text=""
+                         />
+
+
+
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="3">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="10"
+
+                    >
+
+                    <FrameLayout
+                        android:id="@+id/player"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/fatboy"
+
+
+                        />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="5">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="4"
+                    android:background="@color/pink"
+                    >
+                    <TextView
+                        android:id="@+id/bar1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:text="M.Sargent Jr."
+                        />
+
+                    <TextView
+                        android:id="@+id/bar2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:text="Hp:"
+                        />
+                    <TextView
+                        android:id="@+id/bar3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:text="Level:"
+                        />
+                    <TextView
+                        android:id="@+id/bar4"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:text="gold:"
+                        />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="2">
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_alignParentBottom="true"
+
+                    android:background="@drawable/large_button"
+
+                    android:text="@string/roll"
+                    android:textColor="@color/yellow"
+                     />
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
